@@ -8,8 +8,5 @@ h1{
     background-color: blue;
 }
 .pictures{
-    align-right: auto;
-    align-left: auto;
-    width; 50%;
-    
+    float: right
 }
