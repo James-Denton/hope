@@ -1,9 +1,9 @@
 <html>
   <head>
-    <title>2 Javascript test</title>
+    <title>3 Javascript test</title>
     <script>
       function trigger(){
-        input = document.getElementById("test input").value;
+        var input = document.getElementById("test input").value;
         window.alert(input);
         document.getElementById("testPara").innerHTML = input;
       }
@@ -12,7 +12,7 @@
   <body>
   <p>
     <input id="test input">
-    <button type="button" onclick="trigger">trigger</button>
+    <button type="button" onclick="trigger()">trigger</button>
    </p>
    <p id="testPara"></p>
   </body>
