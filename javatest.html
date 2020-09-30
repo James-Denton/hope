@@ -1,17 +1,19 @@
 <html>
   <head>
-    <title>1 Javascript test</title>
+    <title>2 Javascript test</title>
+    <script>
+      function trigger(){
+        input = document.getElementById("test input").value;
+        window.alert(input);
+        document.getElementById("testPara").innerHTML = input;
+      }
+   </script>
   </head>
   <body>
   <p>
     <input id="test input">
     <button type="button" onclick="trigger">trigger</button>
    </p>
-   <script>
-      function trigger(){
-        input = document.getElemntById("test input").value;
-        window.alert(input);
-      }
-   </script>
+   <p id="testPara"></p>
   </body>
 </html>
