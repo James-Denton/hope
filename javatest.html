@@ -1,14 +1,17 @@
 <html>
   <head>
-    <title>0 Javascript test</title>
+    <title>1 Javascript test</title>
   </head>
   <body>
   <p>
     <input id="test input">
     <button type="button" onclick="trigger">trigger</button>
-   <\p>
+   </p>
    <script>
-   
+      function trigger(){
+        input = document.getElemntById("test input").value;
+        window.alert(input);
+      }
    </script>
   </body>
 </html>
